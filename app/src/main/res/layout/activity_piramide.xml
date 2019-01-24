@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/fondo"
+        tools:context=".piramide">
+
+
+
+    <TextView android:layout_width="wrap_content"
+              android:text="Pirámide Alimenticia"
+              android:textSize="30dp"
+              android:textColor="#FFF"
+              android:layout_height="wrap_content"/>
+    <ImageView android:layout_width="wrap_content"
+               android:src="@drawable/piramide"
+               android:layout_height="wrap_content"/>
+    <TableLayout android:layout_width="wrap_content"
+                 android:layout_margin="12dp"
+                 android:layout_height="wrap_content">
+        <TableRow android:background="#430d0d">
+            <TextView android:textColor="#FFF"
+                      android:layout_margin="10dp"
+                      android:textSize="18sp"
+                      android:text="Nivel"/>
+            <TextView android:textColor="#FFF"
+                      android:textSize="18sp"
+                      android:layout_margin="10dp"
+                      android:text="Alimentos"/>
+            <TextView android:textColor="#FFF"
+                      android:layout_margin="10dp"
+                      android:textSize="18sp"
+                      android:text="Porcentaje"/>
+        </TableRow>
+        <TableRow android:background="#FFF">
+            <TextView android:textColor="#000"
+                      android:layout_margin="10dp"
+                      android:textSize="14sp"
+                      android:text="1"/>
+            <TextView android:textColor="#000"
+                      android:textSize="14sp"
+                      android:layout_margin="10dp"
+                      android:text="Chocolates, dulces,\n aceite, mantequilla"/>
+            <TextView android:textColor="#000"
+                      android:layout_margin="10dp"
+                      android:textSize="14sp"
+                      android:text="10%"/>
+        </TableRow>
+        <TableRow android:background="#FFF">
+            <TextView android:textColor="#000"
+                      android:layout_margin="10dp"
+                      android:textSize="14sp"
+                      android:text="2"/>
+            <TextView android:textColor="#000"
+                      android:textSize="14sp"
+                      android:layout_margin="10dp"
+                      android:text="Quesos, leche, carne,\n huevos, frutos secos"/>
+            <TextView android:textColor="#000"
+                      android:layout_margin="10dp"
+                      android:textSize="14sp"
+                      android:text="20%"/>
+        </TableRow>
+        <TableRow android:background="#FFF">
+            <TextView android:textColor="#000"
+                      android:layout_margin="10dp"
+                      android:textSize="14sp"
+                      android:text="3"/>
+            <TextView android:textColor="#000"
+                      android:textSize="14sp"
+                      android:layout_margin="10dp"
+                      android:text="Frutas y verduras"/>
+            <TextView android:textColor="#000"
+                      android:layout_margin="10dp"
+                      android:textSize="14sp"
+                      android:text="30%"/>
+        </TableRow>
+        <TableRow android:background="#FFF">
+            <TextView android:textColor="#000"
+                      android:layout_margin="10dp"
+                      android:textSize="14sp"
+                      android:text="4"/>
+            <TextView android:textColor="#000"
+                      android:textSize="14sp"
+                      android:layout_margin="10dp"
+                      android:text="Panes y cereales \nintegrales, arroz, pasta"/>
+            <TextView android:textColor="#000"
+                      android:layout_margin="10dp"
+                      android:textSize="14sp"
+                      android:text="40%"/>
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</LinearLayout>
+</ScrollView>

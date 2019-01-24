@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProyectoBasico</string>
+    <string name="lastimc">Último IMC calculado:</string>
+    <string name="calreco">Calorías recomendadas:</string>
+</resources>
